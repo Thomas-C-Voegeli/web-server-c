@@ -51,6 +51,7 @@ int main(int argc, char **argv)
 		hostp = gethostbyname(argv[1]);
 	}
 
+
 	// if(getaddrinfo(hostp->h_name, 0, &hints, &res) != 0){
 	// 	const char *error_message;
 	// 	error_message = gai_strerror(error_num);
