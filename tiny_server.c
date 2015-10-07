@@ -13,7 +13,6 @@
 #include <strings.h>
 #include <unistd.h>
 #include <fcntl.h>
-
 #define MAXBUF 1000
 #define MAXLINE 4096
 #define RIO_BUFSIZE 8192
